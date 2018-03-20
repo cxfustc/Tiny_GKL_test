@@ -1,11 +1,11 @@
 import java.io.*;
 
+import com.intel.gkl.pairhmm.IntelPairHmm;
+import com.intel.gkl.pairhmm.IntelPairHmmOMP;
 import org.broadinstitute.gatk.nativebindings.pairhmm.PairHMMNativeArguments;
 import org.broadinstitute.gatk.nativebindings.pairhmm.PairHMMNativeBinding;
 import org.broadinstitute.gatk.nativebindings.pairhmm.ReadDataHolder;
 import org.broadinstitute.gatk.nativebindings.pairhmm.HaplotypeDataHolder;
-import com.intel.gkl.pairhmm.IntelPairHmm;
-import com.intel.gkl.pairhmm.IntelPairHmmOMP;
 
 public class PairHMMTest {
     public static void main (String[] args) {
